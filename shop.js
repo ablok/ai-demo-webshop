@@ -1,7 +1,22 @@
 const PRODUCTS = {
-  apple: { name: "Apple", emoji: "🍏" },
-  banana: { name: "Banana", emoji: "🍌" },
-  lemon: { name: "Lemon", emoji: "🍋" },
+  lager: {
+    name: "Lager",
+    emoji: "🍺",
+    image:
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=facearea&w=400&h=400",
+  },
+  stout: {
+    name: "Stout",
+    emoji: "🍻",
+    image:
+      "https://images.unsplash.com/photo-1514361892635-cebb9b6c7ca5?auto=format&fit=facearea&w=400&h=400",
+  },
+  ipa: {
+    name: "IPA",
+    emoji: "🍶",
+    image:
+      "https://images.unsplash.com/photo-1464983953574-0892a716854b?auto=format&fit=facearea&w=400&h=400",
+  },
 };
 
 function getBasket() {
