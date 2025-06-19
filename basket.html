@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Shopping Basket - Fruit Shop</title>
+    <title>Shopping Basket - Beer Shop</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -11,34 +11,16 @@
       <div class="header-center">
         <a href="index.html" class="logo" aria-label="Go to homepage">
           <img
-            src="img/fruit-shop-logo.webp"
+            src="https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=facearea&w=80&h=80"
             class="logo-img"
-            alt="Fruit Shop Logo"
+            alt="Beer Shop Logo"
           />
-          <span class="products-text" style="text-align: center">
-            View Products
-          </span>
         </a>
-        <nav role="navigation" aria-label="Main navigation">
-          <a
-            href="basket.html"
-            class="basket-link"
-            aria-label="View shopping basket"
-            style="position: relative"
-          >
-            <img
-              src="img/basket-icon.png"
-              class="basket-img"
-              alt="Shopping basket icon"
-            />
-            <span class="basket-text">View shopping basket</span>
-          </a>
-        </nav>
       </div>
     </header>
     <main id="main-content" role="main">
       <div class="content-box">
-        <h1>Your Shopping Basket</h1>
+        <h1>Your Basket</h1>
         <ul
           class="order-list"
           id="basketList"
@@ -46,12 +28,13 @@
         ></ul>
         <div class="cart-buttons-row" role="group" aria-label="Basket actions">
           <button id="clearBasket" aria-label="Clear all items from basket">
-            Clear Basket
+            Clear basket
           </button>
           <a
             href="checkout.html"
             id="checkoutLink"
             aria-label="Proceed to checkout"
+            class="checkout-btn"
           >
             <button id="checkoutBtn">Checkout</button>
           </a>
